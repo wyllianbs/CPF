@@ -40,7 +40,7 @@ Programa que recebe uma string e verifica se os caracteres correspondem a um CPF
 
 ## Requisitos
 - SO Linux
-- Pacotes:
+- Pacotes: `sudo apt install sox libsox-fmt-all gawk konsole kate` 
     - sox
     - libsox-fmt-all
     - gawk
