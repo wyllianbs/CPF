@@ -28,9 +28,9 @@ Programa que recebe uma string e verifica se os caracteres correspondem a um CPF
 2. Cálculo do segundo dígito verificador (DV):
    O cálculo do segundo DV é semelhante ao do primeiro. Entretanto, a diferença consiste nos pesos de cada dígito, os quais são incrementados de 1, e o primeiro DV é incluído no cálculo. Assim, continuando o exemplo, os pesos serão:
 
-    | Dígito |  2 |  2 |  2 |  3 |  3 |  3 |  6 |  6 |  6 | --  | 3 |
+    | Dígito |  2 |  2 |  2 |  3 |  3 |  3 |  6 |  6 |  6 | -  | 3  |
     |--------| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-    | Peso   | 11 | 10 |  9 |  8 |  7 |  6 |  5 |  4 |  3 | -- |  2 |
+    | Peso   | 11 | 10 |  9 |  8 |  7 |  6 |  5 |  4 |  3 | -  |  2 |
 
     a. 11*2 + 10*2 + 9*2 + 8*3 + 7*3 + 6*3 + 5*6 + 4*6 + 3*6 + 3*2 = 201.
     b. O resto da divisão do resultado em (a) por 11, i.e., 201 por 11 resulta em 3.
