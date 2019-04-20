@@ -4,10 +4,6 @@ UNIVERSIDADE FEDERAL DE SANTA CATARINA
 
 Prof. Wyllian Bezerra da Silva 
 
-Canal do Prof. Wyllian 
-
-URL: https://www.youtube.com/channel/UCuWt4qN-ymklKhYUZabPzmA 
-
 
 ## Sobre 
 Programa que recebe uma string e verifica se os caracteres correspondem a um CPF válido ou inválido.
