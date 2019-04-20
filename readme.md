@@ -51,7 +51,7 @@ Programa que recebe uma string e verifica se os caracteres correspondem a um CPF
 1. Compilação/execução:
   `f=CPF; gcc -o ../bin/$f *.c -Wall; ../bin/./$f; rm ../bin/$f` 
 2. Ctrl+C: 
-2.1 Cancel ou Exit.
+   - Cancel ou Exit.
 
 
 ## Instruções
