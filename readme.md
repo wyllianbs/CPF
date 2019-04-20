@@ -19,14 +19,15 @@ Programa que recebe uma string e verifica se os caracteres correspondem a um CPF
     |--------| -- | -- | -- | -- | -- | -- | -- | -- | -- |
     | Peso   | 10 |  9 |  8 |  7 |  6 |  5 |  4 |  3 |  2 | 
     
-    a. 10*2 + 9*2 + 8*2 + 7*3 + 6*3 + 5*3 + 4*6 + 3*6 + 2*6.
-    b. O resto da divisão do resultado obtido, i.e., 162 por 11, é 8.
-    
-    c. Se o resto < 2, o primeiro DV será 0.
-    
-    d. Caso contrário, subtrai-se o valor do resto de 11, e.g., 11 - 8 = 3. Logo, A = 3.
-    
-    e. Neste caso, o primeiro DV = 3. Então, o CPF será 222.333.666-3B.
+ a. 10*2 + 9*2 + 8*2 + 7*3 + 6*3 + 5*3 + 4*6 + 3*6 + 2*6.
+
+ b. O resto da divisão do resultado obtido, i.e., 162 por 11, é 8.
+
+ c. Se o resto < 2, o primeiro DV será 0.
+
+ d. Caso contrário, subtrai-se o valor do resto de 11, e.g., 11 - 8 = 3. Logo, A = 3.
+
+ e. Neste caso, o primeiro DV = 3. Então, o CPF será 222.333.666-3B.
     
 2. Cálculo do segundo dígito verificador (DV):
    O cálculo do segundo DV é semelhante ao do primeiro. Entretanto, a diferença consiste nos pesos de cada dígito, os quais são incrementados de 1, e o primeiro DV é incluído no cálculo. Assim, continuando o exemplo, os pesos serão:
