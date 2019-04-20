@@ -5,7 +5,6 @@
  */
 #include "../header/ufsc.h"  
 #include <stdlib.h> // poderia estar em ufsc.h, mas seria incluída em todos códigos
-#include <unistd.h> // sleep(s) ou usleep(us)
 void showOutput(int *v){ // v[], v[11], *v, (*v)
   int i;
   char str[255];
