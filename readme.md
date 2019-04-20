@@ -37,9 +37,13 @@ Programa que recebe uma string e verifica se os caracteres correspondem a um CPF
     | Peso   | 11 | 10 |  9 |  8 |  7 |  6 |  5 |  4 |  3 | -  |  2 |
 
     a. 11*2 + 10*2 + 9*2 + 8*3 + 7*3 + 6*3 + 5*6 + 4*6 + 3*6 + 3*2 = 201.
+    
     b. O resto da divisão do resultado em (a) por 11, i.e., 201 por 11 resulta em 3.
+    
     c. Se o resto < 2, o segundo DV será 0.
+    
     d. Caso contrário, subtrai-se o valor do resto de 11, e.g., 11 - 3 = 8. Logo, B = 8.
+    
     e. Neste caso, o segundo DV é o número 8. Então, o CPF será 222.333.666-38.
 
 ## Requisitos
