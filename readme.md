@@ -15,7 +15,7 @@ Programa que recebe uma string e verifica se os caracteres correspondem a um CPF
     |--------| -- | -- | -- | -- | -- | -- | -- | -- | -- |
     | Peso   | 10 |  9 |  8 |  7 |  6 |  5 |  4 |  3 |  2 | 
     
-   a. 10(2) + 9(2) + 8(2) + 7(3) + 6(3) + 5(3) + 4(6) + 3(6) + 2(6).
+   a. 10(2) + 9(2) + 8(2) + 7(3) + 6(3) + 5(3) + 4(6) + 3(6) + 2(6) = 162.
 
    b. O resto inteiro da divisão do resultado obtido, i.e., 162 por 11, é 8.
 
