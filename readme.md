@@ -15,9 +15,9 @@ Programa que recebe uma string e verifica se os caracteres correspondem a um CPF
     |--------| -- | -- | -- | -- | -- | -- | -- | -- | -- |
     | Peso   | 10 |  9 |  8 |  7 |  6 |  5 |  4 |  3 |  2 | 
     
-   a. 10*2 + 9*2 + 8*2 + 7*3 + 6*3 + 5*3 + 4*6 + 3*6 + 2*6.
+   a. 10(2) + 9(2) + 8(2) + 7(3) + 6(3) + 5(3) + 4(6) + 3(6) + 2(6).
 
-   b. O resto da divisão do resultado obtido, i.e., 162 por 11, é 8.
+   b. O resto inteiro da divisão do resultado obtido, i.e., 162 por 11, é 8.
 
    c. Se o resto < 2, o primeiro DV será 0.
 
@@ -32,9 +32,9 @@ Programa que recebe uma string e verifica se os caracteres correspondem a um CPF
     |--------| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
     | Peso   | 11 | 10 |  9 |  8 |  7 |  6 |  5 |  4 |  3 | -  |  2 |
 
-    a. 11*2 + 10*2 + 9*2 + 8*3 + 7*3 + 6*3 + 5*6 + 4*6 + 3*6 + 3*2 = 201.
+    a. 11(2) + 10(2) + 9(2) + 8(3) + 7(3) + 6(3) + 5(6) + 4(6) + 3(6) + 3(2) = 201.
     
-    b. O resto da divisão do resultado em (a) por 11, i.e., 201 por 11 resulta em 3.
+    b. O resto inteiro da divisão do resultado em (a) por 11, i.e., 201 por 11 resulta em 3.
     
     c. Se o resto < 2, o segundo DV será 0.
     
