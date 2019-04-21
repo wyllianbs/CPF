@@ -6,7 +6,7 @@ Prof. Wyllian Bezerra da Silva
 
 
 ## Sobre 
-Programa que recebe uma string e verifica se os caracteres correspondem a um CPF válido ou inválido.
+Código em C que recebe uma string e verifica se os caracteres correspondem a um CPF válido ou inválido.
 
 1. Cálculo do primeiro dígito verificador (DV):
    O primeiro DV é calculado utilizando os 9 dígitos independentes, atribuindo-se um peso a cada dígito e utilizando um cálculo módulo 11. O peso do primeiro dígito é 10, do segundo é 9, do terceiro é 8, ..., do nono é 2. Um somatório da multiplicação dos pesos pelos dígitos é feito, e o resultado é dividido por 11. Se o resto dessa divisão for menor que 2, o primeiro DV será 0. Caso contrário, o resto dessa divisão será substraído de 11, obtendo o primeiro DV. Exemplo: o CPF 222.333.666-AB, em AB são os DVs deve ser calculado conforme a seguir:
